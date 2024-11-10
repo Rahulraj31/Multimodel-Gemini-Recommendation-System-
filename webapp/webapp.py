@@ -93,7 +93,7 @@ The customer uploads their image and wants recommendations on which of the follo
     cols = st.columns(2,gap="small", vertical_alignment="center")
     with cols[0]:
         st.subheader("User Image")
-        st.image("https://media.licdn.com/dms/image/v2/D5603AQF_jsOtrIEULg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1708177137662?e=1736985600&v=beta&t=jGX7QT7OF6BHHvdSOlL_6UH-m87rB-D3uztl9xdxQTM", width=350)
+        st.image("https://raw.githubusercontent.com/Rahulraj31/Multimodel-Gemini-Recommendation-System-/refs/heads/main/sample-user-image.jpeg", width=250)
         st.text("")
     
     with cols[1]:
